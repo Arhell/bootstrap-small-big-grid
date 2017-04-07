@@ -23,7 +23,7 @@ p{
 	font-weight: bold;
 }
 .col{
-	background: #F5F5F5;
+	background: #EEEEEE;
 	padding: 10px;
 	text-align: center;
 	color: #000;
@@ -33,7 +33,6 @@ p{
 	background: #fff url(../img/grid.svg) no-repeat;
 	height: 100vh;
 	background-size: cover;
-	background-position: -8.5px -30px;
 }
 .center{
 	display: table;
@@ -122,14 +121,11 @@ p{
 .con{
 	padding: 20px;
 	border: 2px solid #212121;
-	background-color: #F5F5F5;
+	background-color: #EEEEEE;
 	text-align: center;
 	font-weight: bold;
 	font-size: 1em;
 	margin: 0 auto 60px;
-}
-.row-custom p:last-child{
-	margin-bottom: 30px;
 }
 .link{
 	width: 32px;
@@ -145,8 +141,12 @@ p{
 	padding: 20px 0;
 	background: #fff url(../img/grid.svg);
 	background-size: cover;
-	background-position: -8.5px -30px;
 }
 .footer a{
 	margin-top: 0;
+}
+.p-wrapper{
+	background-color: #F5F5F5;
+	padding: 5px 15px;
+	margin-bottom: 30px;
 }

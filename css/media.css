@@ -60,7 +60,7 @@
 		margin-top: 10px;
 	}
 }
-@media (max-width: 767px){
+@media (max-width: 991px){
 	p{
 		font-size: 0.8em;
 	}
@@ -71,5 +71,8 @@
 	}
 	p, .col strong{
 		font-size: 0.7em;
+	}
+	.p-wrapper{
+		padding: 5px;
 	}
 }
