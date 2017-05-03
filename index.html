@@ -6,7 +6,6 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<title>Bootstrap small big grid system</title>
-	<link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -86,6 +85,7 @@
 			</svg>
 		</a>
 	</footer>
+	<link rel="stylesheet" href="css/style.css">
 	<script>
 		!function(a,b){"use strict";for(var c,d=0,e=500,f=15,g=document.getElementsByTagName("a"),h=0;h<g.length;h++)null!==(c=g[h].attributes.href===b?null:g[h].attributes.href.nodeValue.toString())&&c.length>1&&-1!=c.indexOf("#")&&(g[h].onclick=function(){var c,d=this.attributes.href.nodeValue.toString(),g=d.substr(0,d.indexOf("#")),h=d.substr(d.indexOf("#")+1);if(c=document.getElementById(h)){var k=(e-e%f)/f,l=j(),m=(i(c)-l)/k;a.history&&"function"==typeof a.history.pushState&&a.history.pushState({},b,g+"#"+h);for(var n=1;n<=k;n++)!function(){var b=m*n;setTimeout(function(){a.scrollTo(0,b+l)},f*n)}();return!1}});var i=function(a){for(var c=-1*d;a.offsetParent!=b&&null!=a.offsetParent;)c+=a.offsetTop+(null!=a.clientTop?a.clientTop:0),a=a.offsetParent;return c},j=function(){return a.pageYOffset!==b?a.pageYOffset:document.documentElement.scrollTop!==b?document.documentElement.scrollTop:document.body.scrollTop}}(window);
 	</script>
