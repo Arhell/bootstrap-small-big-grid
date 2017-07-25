@@ -8,7 +8,7 @@ Cross-browser compatibility: IE9+.
 
 ### Example
 
-click hear ==> <strong><a href="https://arhell.github.io/bootstrap-small-big-grid/" target="_blank">link</a></strong>
+click hear ==> **<a href="https://arhell.github.io/bootstrap-small-big-grid/" target="_blank">link</a>**
 
 ```html
 <div class="container">
