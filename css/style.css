@@ -206,14 +206,6 @@ p {
     clear: both
 }
 
-.pull-right {
-    float: right!important
-}
-
-.pull-left {
-    float: left!important
-}
-
 @media (min-width:1920px) {
     .con span::after {
         content: "1890px width for FullHD 1920+";
@@ -364,6 +356,14 @@ p {
 .row {
     margin-left: -15px;
     margin-right: -15px
+}
+
+.pull-right {
+    float: right!important
+}
+
+.pull-left {
+    float: left!important
 }
 
 .col-fhd-1,
