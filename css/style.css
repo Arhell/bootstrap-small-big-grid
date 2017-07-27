@@ -187,6 +187,72 @@ p {
     margin-bottom: 30px
 }
 
+.col-example {
+  margin: 0;
+}
+
+.col-example:before {
+  content: "";
+  display: inline-block;
+  padding: 5px 15px;
+  margin-bottom: 30px;
+  background-color: #F5F5F5;
+}
+
+@media (min-width:1920px) {
+  .col-example:before {
+    content: "col-fhd";
+  }
+}
+
+@media (min-width:1680px) and (max-width:1919px) {
+  .col-example:before {
+    content: "col-lhd";
+  }
+}
+
+@media (min-width:1440px) and (max-width:1679px) {
+  .col-example:before {
+    content: "col-mhd";
+  }
+}
+
+@media (min-width:1366px) and (max-width:1439px) {
+  .col-example:before {
+    content: "col-shd";
+  }
+}
+
+@media (min-width:1200px) and (max-width:1365px) {
+  .col-example:before {
+    content: "col-lg";
+  }
+}
+
+@media (min-width:992px) and (max-width:1199px) {
+  .col-example:before {
+    content: "col-md";
+  }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+  .col-example:before {
+    content: "col-sm";
+  }
+}
+
+@media (min-width:480px) and (max-width:767px) {
+  .col-example:before {
+    content: "col-xs";
+  }
+}
+
+@media (min-width:0) and (max-width:479px) {
+  .col-example:before {
+    content: "col-xss";
+  }
+}
+
 .clearfix:after,
 .clearfix:before,
 .container-fluid:after,
