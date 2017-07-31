@@ -10,6 +10,11 @@ Cross-browser compatibility: IE9+.
 
 click hear ==> **[link](https://arhell.github.io/bootstrap-small-big-grid/)**
 
+|   	|   	|   	|
+|---	|---	|---	|
+|   	|   	|   	|
+|   	|   	|   	|
+
 ## License
 
 The code and the documentation are released under the [MIT License](LICENSE).
