@@ -10,7 +10,7 @@ Cross-browser compatibility: IE9+.
 
 click hear ==> **[link](https://arhell.github.io/bootstrap-small-big-grid/)**
 
-### cols example &#8681;
+### Сols example &#8681;
 
 | cols-   	| min-width 	| max-width 	|
 |---------	|:---------:	|:---------:	|
