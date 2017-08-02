@@ -1,6 +1,6 @@
 # Bootstrap small big grid layout
 
-## Hi! This is fixed container grid
+## This is fixed container grid
 
 You may use this grid for your project, grid based on classic <a href="http://getbootstrap.com/css/#grid" target="_blank">Bootstrap</a> layout.
 
