@@ -192,6 +192,9 @@ p {
 
 .col-example {
 	margin: 0;
+	-webkit-box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.2);
+	box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.2);
 }
 
 .col-example:before {
