@@ -63,6 +63,10 @@ p {
 	z-index: 1;
 }
 
+.octo-body {
+	color: #fff;
+}
+
 .header {
 	background: url(../img/grid.svg) no-repeat #fff;
 	height: 100vh;
