@@ -63,6 +63,13 @@ p {
 	z-index: 1;
 }
 
+@media screen and (min-width: 768px) {
+	.github {
+		height: 80px;
+		width: 80px;
+	}
+}
+
 .octo-arm {
 	color: #fff;
 }
