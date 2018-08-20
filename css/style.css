@@ -74,6 +74,10 @@ p {
 	color: #fff;
 }
 
+.github:hover .octo-arm {
+	animation: a .56s ease-in-out;
+}
+
 .octo-body {
 	color: #fff;
 }
