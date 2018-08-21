@@ -78,6 +78,20 @@ p {
 	animation: a .56s ease-in-out;
 }
 
+@keyframes a {
+	0%,to {
+		transform: rotate(0)
+	}
+
+	20%,60% {
+		transform: rotate(-25deg)
+	}
+
+	40%,80% {
+		transform: rotate(10deg)
+	}
+}
+
 .octo-body {
 	color: #fff;
 }
