@@ -75,10 +75,10 @@ p {
 }
 
 .github:hover .octo-arm {
-	animation: a .56s ease-in-out;
+	animation: anim .56s ease-in-out;
 }
 
-@keyframes a {
+@keyframes anim {
 	0%,to {
 		transform: rotate(0)
 	}
