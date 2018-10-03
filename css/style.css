@@ -53,13 +53,13 @@ p {
 	border: 2px solid #212121;
 }
 .github {
+	position: fixed;
+	right: 0;
+	top: 0;
 	height: 60px;
 	width: 60px;
 	border-bottom: 0;
-	position: fixed;
-	right: 0;
 	text-decoration: none;
-	top: 0;
 	z-index: 1;
 }
 
