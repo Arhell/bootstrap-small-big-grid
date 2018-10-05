@@ -95,8 +95,8 @@ p {
 }
 
 .header {
-	background: url(../img/grid.svg) no-repeat #fff;
 	height: 100vh;
+	background: url(../img/grid.svg) no-repeat #fff;
 	background-size: cover;
 }
 
