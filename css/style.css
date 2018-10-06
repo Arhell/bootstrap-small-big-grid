@@ -122,12 +122,12 @@ p {
 }
 
 .scroll-down-wrapper .scroll-down {
-	border: 2px solid #000;
-	border-radius: 30px;
+	width: 30px;
 	height: 46px;
 	margin: 0 auto;
+	border: 2px solid #000;
+	border-radius: 30px;
 	text-align: center;
-	width: 30px;
 }
 
 .scroll-down-wrapper .scroll-down .scroll-down-c1,
