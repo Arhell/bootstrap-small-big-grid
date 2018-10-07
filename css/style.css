@@ -184,10 +184,10 @@ p {
 
 .scroll-down-link {
 	display: block;
+	width: 30px;
+	margin: auto;
 	color: #000;
 	text-decoration: none;
-	margin: auto;
-	width: 30px;
 }
 
 .main {
