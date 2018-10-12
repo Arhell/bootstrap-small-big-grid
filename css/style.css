@@ -202,10 +202,10 @@ p {
 }
 
 .link {
+	display: block;
 	width: 32px;
 	height: 32px;
 	margin: 30px auto 0;
-	display: block;
 }
 
 .wrapper {
