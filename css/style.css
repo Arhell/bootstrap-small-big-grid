@@ -132,13 +132,13 @@ p {
 
 .scroll-down-wrapper .scroll-down .scroll-down-c1,
 .scroll-down-wrapper .scroll-down .scroll-down-c2 {
+	fill: #000;
 	-webkit-animation-duration: 1.5s;
 	animation-duration: 1.5s;
 	-webkit-animation-name: scroll-down;
 	animation-name: scroll-down;
 	-webkit-animation-iteration-count: infinite;
 	animation-iteration-count: infinite;
-	fill: #000;
 }
 
 .scroll-down-wrapper .scroll-down-c2 {
