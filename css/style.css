@@ -5,13 +5,13 @@ p {
 	color: #000;
 }
 
+h1,
+h2,
+h3,
 .col,
 .con,
 .scroll-down-link,
-.scroll-down-wrapper,
-h1,
-h2,
-h3 {
+.scroll-down-wrapper {
 	text-align: center;
 }
 
