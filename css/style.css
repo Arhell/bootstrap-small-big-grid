@@ -38,8 +38,8 @@ h2 {
 	font-size: 1.5em;
 }
 
-.con,
-p {
+p,
+.con {
 	font-weight: 700;
 	font-size: 1em;
 }
