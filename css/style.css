@@ -319,13 +319,13 @@ p {
 	.con span::after {
 		content: "1890px width for FullHD 1920+";
 		position: relative;
+		left: 0;
+		top: 0;
+		display: block;
 		width: 100%;
 		height: auto;
 		color: #000;
 		margin-top: 10px;
-		left: 0;
-		top: 0;
-		display: block;
 	}
 }
 
