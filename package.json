@@ -1,0 +1,23 @@
+{
+  "name": "bootstrap-small-big-grid",
+  "version": "1.0.0",
+  "description": "bootstrap small big grid wish fixed container",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arhell/bootstrap-small-big-grid.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Arhell/bootstrap-small-big-grid/issues"
+  },
+  "homepage": "https://github.com/Arhell/bootstrap-small-big-grid#readme",
+  "devDependencies": {
+    "gulp": "^4.0.0"
+  }
+}
