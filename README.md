@@ -24,6 +24,14 @@ click here ==> **[link](https://arhell.github.io/bootstrap-small-big-grid/)**
 | col-lhd 	|   1680px  	|   1919px  	|
 | col-fhd 	|   1920px  	|     >     	|
 
+## SASS version
+
+In scss folder.
+
+### How to use
+
+In terminal add 'gulp sass'
+
 ## License
 
 The code and the documentation are released under the [MIT License](LICENSE).
