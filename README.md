@@ -26,10 +26,6 @@ click here ==> **[link](https://arhell.github.io/bootstrap-small-big-grid/)**
 
 ## SASS version
 
-In scss folder.
-
-### How to use
-
 In terminal add 'gulp sass'
 
 ## License
