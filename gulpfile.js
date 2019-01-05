@@ -1,5 +1,6 @@
 var gulp = require('gulp'),
-    pug = require('gulp-pug')
+    pug = require('gulp-pug'),
+    sass = require('gulp-sass')
 
 gulp.task('pug', function () {
   return gulp.src('src/index.pug')
@@ -8,3 +9,9 @@ gulp.task('pug', function () {
     }))
     .pipe(gulp.dest('./'));
 })
+
+gulp.task('sass', function () {
+  return gulp.src('src/style.scss')
+    .pipe(sass().on('error', sass.logError))
+    .pipe(gulp.dest('./css'));
+});
