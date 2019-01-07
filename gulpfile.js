@@ -11,7 +11,7 @@ gulp.task('pug', function () {
 })
 
 gulp.task('sass', function () {
-  return gulp.src('src/style.scss')
+  return gulp.src('src/scss/style.scss')
     .pipe(sass().on('error', sass.logError))
     .pipe(gulp.dest('./css'));
 });
