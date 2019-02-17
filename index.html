@@ -7,6 +7,10 @@
     <title>Bootstrap small big grid system</title>
     <link rel="stylesheet" href="css/style.css">
     <meta name="theme-color" content="#000000">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon/site.webmanifest">
   </head>
   <body>
     <div class="wrapper">
@@ -34,49 +38,51 @@
         </div>
       </header>
       <main class="main" id="main">
-        <h2>Fixed container example</h2>
-        <div class="row-custom clearfix">
-          <div class="col-sm-6 col-sm-offset-3 col-xs-12">
-            <div class="p-wrapper">
-              <p>(min-width: 1920px) 1890px</p>
-              <p>(min-width: 1680px and max-width: 1919px) 1650px</p>
-              <p>(min-width: 1440px and max-width: 1679px) 1410px</p>
-              <p>(min-width: 1336px and max-width: 1439px) 1336px</p>
-              <p>(min-width: 1200px and max-width: 1335px) 1170px</p>
-              <p>(min-width: 992px and max-width: 1199px) 970px</p>
-              <p>(min-width: 768px and max-width: 991px) 750px</p>
-              <p>(min-width: 0px and max-width: 767px) 100%</p>
+        <section>
+          <h2>Fixed container example</h2>
+          <div class="row-custom clearfix">
+            <div class="col-sm-6 col-sm-offset-3 col-xs-12">
+              <div class="p-wrapper">
+                <p>(min-width: 1920px) 1890px</p>
+                <p>(min-width: 1680px and max-width: 1919px) 1650px</p>
+                <p>(min-width: 1440px and max-width: 1679px) 1410px</p>
+                <p>(min-width: 1336px and max-width: 1439px) 1336px</p>
+                <p>(min-width: 1200px and max-width: 1335px) 1170px</p>
+                <p>(min-width: 992px and max-width: 1199px) 970px</p>
+                <p>(min-width: 768px and max-width: 991px) 750px</p>
+                <p>(min-width: 0px and max-width: 767px) 100%</p>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="container con"><span>container</span></div>
-        <h2>Columns example wish row in container</h2>
-        <div class="row-custom clearfix">
-          <div class="col-sm-6 col-sm-offset-3 col-xs-12">
-            <div class="p-wrapper">
-              <p>col-fhd (min-width: 1920px)</p>
-              <p>col-lhd (min-width: 1680px and max-width: 1919px)</p>
-              <p>col-mhd (min-width: 1440px and max-width: 1679px)</p>
-              <p>col-shd (min-width: 1366px and max-width: 1439px)</p>
-              <p>col-lg (min-width: 1200px and max-width: 1365px)</p>
-              <p>col-md (min-width: 992px and max-width: 1199px)</p>
-              <p>col-sm (min-width: 768px and max-width: 991px)</p>
-              <p>col-xs (min-width: 480px and max-width: 767px)</p>
-              <p>col-xss (min-width: 0 and max-width: 439px)</p>
-            </div>
-            <h3 class="col-example"></h3>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-xss-2 col-xs-3 col-sm-4 col-md-5 col-lg-6 col-shd-7 col-mhd-8 col-lhd-9 col-fhd-10">
-              <div class="col"><strong>col</strong></div>
-            </div>
-            <div class="col-xss-10 col-xs-9 col-sm-8 col-md-7 col-lg-6 col-shd-5 col-mhd-4 col-lhd-3 col-fhd-2">
-              <div class="col"><strong>col</strong></div>
+          <div class="container con"><span>container</span></div>
+          <h2>Columns example wish row in container</h2>
+          <div class="row-custom clearfix">
+            <div class="col-sm-6 col-sm-offset-3 col-xs-12">
+              <div class="p-wrapper">
+                <p>col-fhd (min-width: 1920px)</p>
+                <p>col-lhd (min-width: 1680px and max-width: 1919px)</p>
+                <p>col-mhd (min-width: 1440px and max-width: 1679px)</p>
+                <p>col-shd (min-width: 1366px and max-width: 1439px)</p>
+                <p>col-lg (min-width: 1200px and max-width: 1365px)</p>
+                <p>col-md (min-width: 992px and max-width: 1199px)</p>
+                <p>col-sm (min-width: 768px and max-width: 991px)</p>
+                <p>col-xs (min-width: 480px and max-width: 767px)</p>
+                <p>col-xss (min-width: 0 and max-width: 439px)</p>
+              </div>
+              <h3 class="col-example"></h3>
             </div>
           </div>
-        </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-xss-2 col-xs-3 col-sm-4 col-md-5 col-lg-6 col-shd-7 col-mhd-8 col-lhd-9 col-fhd-10">
+                <div class="col"><strong>col</strong></div>
+              </div>
+              <div class="col-xss-10 col-xs-9 col-sm-8 col-md-7 col-lg-6 col-shd-5 col-mhd-4 col-lhd-3 col-fhd-2">
+                <div class="col"><strong>col</strong></div>
+              </div>
+            </div>
+          </div>
+        </section>
       </main>
     </div>
     <footer class="footer"><a class="link" href="https://github.com/Arhell/bootstrap-small-big-grid" target="_blank">
