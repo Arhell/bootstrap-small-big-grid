@@ -14,7 +14,7 @@ module.exports = function () {
       }))
       .pipe($.glp.csso())
       //.pipe($.glp.sourcemaps.write())
-      .pipe($.gulp.dest('dist/css'))
+      .pipe($.gulp.dest('css'))
       .pipe($.bs.reload({
         stream: true
       }));
