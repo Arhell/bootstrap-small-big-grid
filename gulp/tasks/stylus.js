@@ -12,7 +12,7 @@ module.exports = function () {
       .on("error", $.glp.notify.onError({
         title: "Stylus error"
       }))
-      .pipe($.glp.csso())
+      //.pipe($.glp.csso())
       //.pipe($.glp.sourcemaps.write())
       .pipe($.gulp.dest('css'))
       .pipe($.bs.reload({
