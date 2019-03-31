@@ -1941,10 +1941,10 @@ p {
   width: 27px;
   height: 21px;
 }
-.sht {
+.ght {
   text-decoration: none;
 }
-.sht:hover {
+.ght:hover {
   text-decoration: underline;
 }
 @media (min-width: 1920px) {
