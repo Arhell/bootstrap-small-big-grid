@@ -2,7 +2,7 @@
 
 ## This is fixed container grid
 
-You may use this grid for your project, grid based on classic <a href="https://getbootstrap.com/docs/3.3/css/#grid" target="_blank">Bootstrap 3</a> layout.
+You may use this grid for your project, grid based on classic <a href="https://getbootstrap.com/docs/3.4/css/#grid" target="_blank">Bootstrap 3</a> layout.
 
 Cross-browser: IE9+.
 
