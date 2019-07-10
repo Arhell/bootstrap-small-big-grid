@@ -1827,7 +1827,6 @@ p {
 .header {
   height: 100vh;
   background: url("../img/grid.svg") no-repeat #fff;
-  -webkit-background-size: cover;
   background-size: cover;
 }
 .center {
@@ -1852,7 +1851,6 @@ p {
   height: 46px;
   margin: 0 auto;
   border: 2px solid #000;
-  -webkit-border-radius: 30px;
   border-radius: 30px;
   text-align: center;
 }
@@ -1912,7 +1910,6 @@ p {
 .footer {
   padding: 20px 0;
   background: url("../img/grid.svg") #fff;
-  -webkit-background-size: cover;
   background-size: cover;
   text-align: center;
 }
