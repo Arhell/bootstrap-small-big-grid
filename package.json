@@ -1,14 +1,14 @@
 {
-  "name": "SHT",
+  "name": "GHT",
   "version": "0.4.0",
-  "description": "Start Html Template",
+  "description": "Gulp Html Template",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Arhell/SHT.git"
+    "url": "git+https://github.com/Arhell/GHT.git"
   },
   "keywords": [
     "pug",
@@ -18,7 +18,7 @@
   "author": "Arhell",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Arhell/SHT/issues"
+    "url": "https://github.com/Arhell/GHT/issues"
   },
   "homepage": "https://github.com/Arhell/SHT#readme",
   "devDependencies": {
