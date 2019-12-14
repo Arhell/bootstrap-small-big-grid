@@ -9,16 +9,14 @@ jobs:
     strategy:
       matrix:
         operating-system: [ubuntu-latest, windows-latest]
+        node_version: [8, 10, 12]
     steps:
       - uses: actions/checkout@master
 
-      - name: Set Node.js 10.x
+      - name: Set Node.js
         uses: actions/setup-node@master
         with:
-          version: 10.x
+          version: ${{ matrix.node_version }}
 
       - name: npm install
         run: npm install
-
-      - name: npm test
-        run: npm test
