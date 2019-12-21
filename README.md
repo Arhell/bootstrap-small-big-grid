@@ -1,5 +1,7 @@
 # Bootstrap small big grid layout
 
+[![Build Status][actions-badge]][actions link]
+
 ## This is fixed container grid
 
 You may use this grid for your project, grid based on classic <a href="https://getbootstrap.com/docs/3.4/css/#grid" target="_blank">Bootstrap 3</a> layout.
@@ -31,3 +33,5 @@ In terminal add 'gulp sass'
 ## License
 
 The code and the documentation are released under the [MIT License](LICENSE).
+
+[actions-badge]: https://github.com/Arhell/bootstrap-small-big-grid/workflows/build/badge.svg
