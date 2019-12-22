@@ -34,4 +34,5 @@ In terminal add 'gulp sass'
 
 The code and the documentation are released under the [MIT License](LICENSE).
 
+[actions link]: https://github.com/Arhell/bootstrap-small-big-grid/actions
 [actions-badge]: https://github.com/Arhell/bootstrap-small-big-grid/workflows/build/badge.svg
