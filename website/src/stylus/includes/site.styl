@@ -1,0 +1,296 @@
+.con, h1, h2, p
+  font-weight 700
+
+.col, h1, h2, p
+  color #000
+
+.octo-arm, .octo-body
+  color #fff
+
+.col, .con, .scroll-down-link, .scroll-down-wrapper, h1, h2, h3
+  text-align center
+
+body, html
+  margin 0
+  padding 0
+  background #fff
+  font-family Arial,sans-serif
+  font-size 16px
+
+h1, h2
+  margin 20px auto
+
+h1
+  font-size 2em
+
+h2
+  font-size 1.5em
+  a
+    color #000
+    text-decoration none
+    &:hover
+      text-decoration underline
+
+.con
+  font-size 1em
+
+p
+  font-size 1em
+  margin 10px 0
+
+.col
+  background #EEE
+  padding 10px
+  border 2px solid #212121
+
+.github
+  position fixed
+  right 0
+  top 0
+  height 60px
+  width 60px
+  border-bottom 0
+  text-decoration none
+  z-index 1
+  &:hover .octo-arm
+    animation anim .56s ease-in-out
+
+@media screen and (min-width 768px)
+  .github
+    height 80px
+    width 80px
+
+  @keyframes anim
+    0%, to
+      transform rotate(0)
+
+    20%, 60%
+      transform rotate(-25deg)
+
+    40%, 80%
+      transform rotate(10deg)
+
+
+.header
+  height 100vh
+  background url(../img/grid.svg) no-repeat #fff
+  background-size cover
+
+.center
+  position relative
+  display table
+  height 100vh
+  width 100%
+
+.middle
+  display table-cell
+  vertical-align middle
+
+.scroll-down-wrapper
+  display table-row
+  strong
+    display block
+    margin-top 10px
+  .scroll-down
+    width 30px
+    height 46px
+    margin 0 auto
+    border 2px solid #000
+    border-radius 30px
+    text-align center
+    .scroll-down-c1, .scroll-down-c2
+      fill #000
+      animation-duration 1.5s
+      animation-name scroll-down
+      animation-iteration-count infinite
+  .scroll-down-c2
+    -webkit-animation-delay .75s
+    animation-delay .75s
+
+@-webkit-keyframes scroll-down
+  0%
+    opacity 0
+    transform translate(0, -8px)
+
+  50%
+    opacity 1
+    transform translate(0, 0)
+
+  100%
+    opacity 0
+    transform translate(0, 8px)
+
+
+@keyframes scroll-down
+  0%
+    opacity 0
+    transform translate(0, -8px)
+
+  50%
+    opacity 1
+    transform translate(0, 0)
+
+  100%
+    opacity 0
+    transform translate(0, 8px)
+
+
+.scroll-down-link
+  display block
+  width 30px
+  margin auto
+  color #000
+  text-decoration none
+
+.main
+  margin 60px 0
+
+.con
+  margin 0 auto 60px
+  padding 20px
+  border 2px solid #212121
+  background-color #EEE
+
+.link
+  display block
+  width 32px
+  height 32px
+  margin 30px auto 0
+
+.footer
+  padding 20px 0
+  background url(../img/grid.svg) #fff
+  background-size cover
+  text-align center
+  a
+    margin-top 0
+    color: #000
+
+.p-wrapper
+  background-color #F5F5F5
+  padding 5px 15px
+  margin-bottom 30px
+
+.col-example
+  margin 0
+  &before
+    content ""
+    display inline-block
+    padding 5px 20px
+    margin-bottom 30px
+    background-color #F5F5F5
+
+.icon
+  position relative
+  bottom -5px
+  width 27px
+  height 21px
+
+.ght
+  text-decoration none
+  &:hover
+    text-decoration underline
+
+@media (min-width 1920px)
+  .col-examplebefore
+    content "col-fhd"
+
+@media (min-width 1680px) and (max-width 1919px)
+  .col-examplebefore
+    content "col-lhd"
+
+@media (min-width 1440px) and (max-width 1679px)
+  .col-examplebefore
+    content "col-mhd"
+
+@media (min-width 1366px) and (max-width 1439px)
+  .col-examplebefore
+    content "col-shd"
+
+@media (min-width 1200px) and (max-width 1365px)
+  .col-examplebefore
+    content "col-lg"
+
+@media (min-width 992px) and (max-width 1199px)
+  .col-examplebefore
+    content "col-md"
+
+@media (min-width 768px) and (max-width 991px)
+  .col-examplebefore
+    content "col-sm"
+
+@media (min-width 480px) and (max-width 767px)
+  .col-examplebefore
+    content "col-xs"
+
+@media (min-width 0) and (max-width 479px)
+  .col-examplebefore
+    content "col-xss"
+
+@media (min-width 1920px)
+  .con spanafter
+    content "1890px width for FullHD 1920+"
+    position relative
+    left 0
+    top 0
+    display block
+    width 100%
+    height auto
+    color #000
+    margin-top 10px
+
+@media (min-width 1680px) and (max-width 1919px)
+  .con spanafter
+    content "1650px width"
+    display block
+    margin-top 10px
+
+@media (min-width 1440px) and (max-width 1679px)
+  .con spanafter
+    content "1410px width"
+    display block
+    margin-top 10px
+
+@media (min-width 1366px) and (max-width 1439px)
+  .con spanafter
+    content "1336px width"
+    display block
+    margin-top 10px
+
+@media (min-width 1200px) and (max-width 1365px)
+  .con spanafter
+    content "1170px width"
+    display block
+    margin-top 10px
+
+@media (min-width 992px) and (max-width 1199px)
+  .con spanafter
+    content "970px width"
+    display block
+    margin-top 10px
+
+@media (min-width 768px) and (max-width 991px)
+  .con spanafter
+    content "750px width"
+    display block
+    margin-top 10px
+
+@media (min-width 320px) and (max-width 767px)
+  .con spanafter
+    content "100% width"
+    display block
+    margin-top 10px
+
+@media (max-width 991px)
+  p
+    font-size .8em
+
+@media (max-width 480px)
+  .col
+    padding 10px 0
+    strong
+      font-size .7em
+  p
+    font-size .7em
+  .p-wrapper
+    padding 5px

@@ -1,0 +1,40 @@
+{
+  "name": "GHT",
+  "version": "0.4.0",
+  "description": "Gulp Html Template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arhell/GHT.git"
+  },
+  "keywords": [
+    "pug",
+    "stylus",
+    "gulp"
+  ],
+  "author": "Arhell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Arhell/GHT/issues"
+  },
+  "homepage": "https://github.com/Arhell/SHT#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.14",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-csso": "^4.0.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-load-plugins": "^2.0.6",
+    "gulp-notify": "^3.2.0",
+    "gulp-pug": "^4.0.1",
+    "gulp-replace": "^1.0.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-stylus": "^2.7.0",
+    "gulp-svgmin": "^3.0.0",
+    "imagemin-mozjpeg": "^9.0.0"
+  }
+}
